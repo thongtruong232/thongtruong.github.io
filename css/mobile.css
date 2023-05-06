@@ -1,0 +1,41 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  /* CSS */
+  #navbar-avatar,
+  #navbar-space {
+    display: none;
+  }
+  li {
+    margin: 0 !important;
+  }
+  .card-icon {
+    display: block !important;
+  }
+  .text-none {
+    display: none !important;
+  }
+  #row-job {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+  }
+  .prize {
+    display: block;
+  }
+  .data {
+    border-top: 1px solid rgb(73, 80, 87);
+    padding: none;
+  }
+  .java {
+    border-top: 1px solid rgb(73, 80, 87);
+    padding-top: 40px;
+  }
+  .project {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/

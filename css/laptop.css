@@ -1,0 +1,72 @@
+#row-job {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+/*Certificate */
+#certificate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.prize-container {
+  width: 1100px;
+}
+.prize {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+}
+.prize img {
+  height: 100px;
+}
+.web,
+.java,
+.data {
+  display: flex;
+  /* background-color: #495057; */
+}
+.web-text,
+.java-text,
+.data-text {
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.data {
+  /* background-color: #5c7cfa; */
+  grid-column: 1/-1;
+  border-top: #495057 solid 1px;
+  padding-top: 40px;
+}
+.prize-title {
+  padding: 50px 0px;
+}
+/* Footer */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 18px;
+  padding: 50px 0px;
+  background-color: #e9ecef;
+}
+.footer-container i::before {
+  font-size: 40px;
+}
+.footer-icon {
+  display: flex;
+  font-size: 14px;
+}
+.footer-icon :first-child {
+  font-size: 22px;
+  display: flex;
+  padding: 12px;
+}
+.footer-icon p {
+  padding-top: 10px;
+}
